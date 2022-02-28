@@ -11,7 +11,9 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;}
+    margin-top: auto;
+    margin-bottom: 50px;
+    width: 40%;}
 
     img:hover {
         transform: scaleX(-1);
@@ -82,6 +84,7 @@ body{
     
 
     li { 
+      display: inline;
         font-size: 30px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
@@ -138,6 +141,39 @@ body{
       padding: 15px;
 
       }
+
+      nav {
+        
+        background-color: #83e1e7;
+height: 100px;
+width: 100%;
+width: 600px;
+border: 10px solid rgb(35, 134, 214);
+padding: 70px;
+margin: auto;
+border-radius: 25%;
+
+      }
+
+      
+
+      p {
+        background-color: #83e1e7;
+height: 100px;
+width: 400px;
+border: 10px solid rgb(35, 134, 214);
+padding: 50px;
+margin: auto;
+border-radius: 25%;
+      }
+
+      
+
+    
+
+     
+
+    
 
  
 
