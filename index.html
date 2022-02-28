@@ -2,11 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="text/stylesheet" type="css/style.css">
+    
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>My Portfolio</title>
+    
+    
 </head>
+  <div class="header">
+    <header>
+      <img src="img/logo.jpeg" alt="logo">
+    </header>
+ </div>
 <!-- 
     -image/log
     -menu page selection , jump to different sections by staying on the same peage
@@ -16,29 +22,32 @@
      -contact sectionwith details and form 
    -->  
 <body>
+
+
   <div class="header" id="header">
-      
           
-          <img src="img/logo.jpeg" alt="logo">
+      
           <h1>Jay Tranberg Developing WEB 3.0</h1>
-      
-      
+          
   </div>
-  
+
+  <section>
+
       <nav class="topnav" id="topnav">
-          <ul>
-            <a href=""><li>home</li></a>
-            <a href="#contact"><li>contact</li></a>
-            <a href="#lifestyle"><li>lifestyle</li></a>
-            <a href="#skills"><li>skills</li></a>
-            <a href="#about"><li>about</li></a>
+          <ul style="list-style: none">
+            <a href="#contact"><li>Contact</li></a>
+            <a href="#lifestyle"><li>Lifestyle</li></a>
+            <a href="#skills"><li>Skills</li></a>
+            <a href="#about"><li>About</li></a>
           </ul>
       </nav>
-      <div>
-        <h3>about</h3>
+  </section>
+
+        <h4> What to know</h4>
+        
         <div>
            <section class="lifestyle">
-               <h4>Jay Tranberg</h4>
+              
             <img src="img/lifestyle.jpeg" alt="picture">
               <p id="about"> 
                Getting involed with web 3.0 was the best thing i ever <br>
@@ -48,8 +57,11 @@
           </section>
          </div>
   
-  <div>
-      <h3>about</h3>
+       <div>
+            <h2> About</h2>
+       </div> 
+
+      
       <div>
          <section class="about">
              <h4>Jay Tranberg</h4>
@@ -59,32 +71,45 @@
              Understanding the currency of the future. <br>
              Utilizing the blockchain to creat security through decentralization. <br>
             </p>
+            
         </section>
        </div>
-      
-          <section id="skills">
-           <ol>
+
+     <div>
+           <h1> 
+             Work with Me
+           </h1>
+      </div>
+
+      <div>
+          <section id="skills" align="center">
+           <ul style="list-style: none;">
              <a href=""><li>website</li></a>
              <a href=""><li>app</li></a>
              <a href=""><li>blockchain</li></a>
              <a href=""><li>smart contracts</li></a>
              <a href=""><li>cryprocurrencies</li></a>
-           </ol>   
+          </ul>  
           </section>
-       
-  </div>
+      </div>  
+  
+<div>
+  <section id="contact" align="center">
 
-  <section id="contact">
+       <h1>For contacting Jay Tranberg</h1>
+         <form action="#">
+           <label for="name">First name:</label>
+           <input type="text" placeholder="name"><br>
+           <label for="email">Email:</label>
+           <input type="email" placeholder="your@email"> <br>
+           <input type="submit" value="Submit">
+         </form>
+  </section>
+</div>
 
-       <h2>For contacting Jay Tranberg</h2>
-   <form action="#">
-     <label for="fname">First name:</label>
-     <input type="text" placeholder="fname">
-     <label for="email">Email:</label>
-     <input type="email" placeholder="email@gmail.com"> 
-     <input type="submit" value="Submit">
-  </form>
-</section>
-    <p>&copy; Jay Tranberg feb 24 2022</p>
+
+  <h3>The Future is W3</h3>
+
+    <p>&copy; Jay Tranberg Feb 24 2022</p>
 </body>
 </html>
